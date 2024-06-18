@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+        <script src="functions.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="fonts/Linux Biolinum-FontZillion/stylesheet.css">
+</head>
+<body>
+    <div id="layout">
+          
+        <div id="header">
+            
+            <div id="header-search">
+        
+                <img src="icons/search.svg" alt="search icon">
+
+                <input type="text" name="search" id="header-search-bar" autocomplete="off">
+        
+            </div>
+
+            <div id="header-buttons">
+        
+                <button id="notifications"><img src="icons/notifications.svg" alt=""></button>
+
+                <button id="button-profile-icon"><img src="icons/profile-pic-2.png" alt=""></button>
+                
+                <div id="header-buttons-username">Lord Krat</div>
+        
+            </div>
+
+        
+            <div id="header-userInfo">
+        
+                <img src="icons/profile-pic-2.png" alt="" id="display-profile-icon">
+
+                <div id="header-userInfo-greetings">
+        
+                    <div id="header-userInfo-greetings-message">
+                        Hi, there,
+                    </div>
+
+                    <div id="header-userInfo-greetings-user">
+                        Lord Krat (@krat)
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="header-actions">
+                <button id="open-dialog" class="button">New</button>
+
+                <dialog id="new-book-dialog">
+                    
+                    <form>
+                        
+                        <label for="book-name">Book Name: </label>
+                        <input type="text" id="book-name" maxlength="15">
+
+                        <label for="author-name">Author: </label>
+                        <input type="text" id="author-name" maxlength="15">
+
+                        <label for="bool-read-book">Have you Read the Book? </label>
+                        <input type="checkbox" id="bool-read-book">
+
+                        <button type="reset" formmethod="dialog">Cancel</button>
+                        <button type="submit">Add</button>
+
+                    </form>
+
+                </dialog>
+                
+                <button id="share" class="button">Share</button>
+            </div>
+
+        </div>
+
+        <div id="content">
+
+            <div id="content-book">
+
+                <div class="content-title">
+                    Your Books
+                </div>
+
+                <div id="book-card-layout">
+                    
+                    <div class="book-card">
+                        
+                        <div class="book-card-title">Meri Book Meri Marzi</div>
+                        <div class="book-card-author">Mere Baap ne</div>
+
+                        <div class="book-card-buttons-layer">
+                            
+                            <div class="read-or-no">Read</div>
+                            
+                            <div class="book-card-action-buttons">
+                                <button class="button" style="font-size: clamp(13px, 0.6rem, 40px);">Delete</button>
+                                <button class="button" style="font-size: clamp(13px, 0.6rem, 40px);">Read More</button>
+                            </div>
+                            
+                        </div>
+                    </div>                    
+
+                </div>
+
+            </div>
+
+        </div>
+ 
+    </div>
+</body>
+</html>

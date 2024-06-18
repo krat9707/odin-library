@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'TT Ricordi Trial Nobili';
+    src: url('TTRicordiTrial-Nobili.woff2') format('woff2'),
+        url('TTRicordiTrial-Nobili.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Ricordi Trial Fulmini';
+    src: url('TTRicordiTrial-Fulmini.woff2') format('woff2'),
+        url('TTRicordiTrial-Fulmini.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Ricordi Trial Todi';
+    src: url('TTRicordiTrial-Todi.woff2') format('woff2'),
+        url('TTRicordiTrial-Todi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

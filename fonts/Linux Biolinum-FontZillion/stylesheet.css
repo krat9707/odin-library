@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Linux Biolinum Capitals';
+    src: url('LinBiolinumCapitalsB.woff2') format('woff2'),
+        url('LinBiolinumCapitalsB.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum Capitals';
+    src: url('LinBiolinumCapitals.woff2') format('woff2'),
+        url('LinBiolinumCapitals.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum Slanted';
+    src: url('LinBiolinumSlantedB.woff2') format('woff2'),
+        url('LinBiolinumSlantedB.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum Slanted';
+    src: url('LinBiolinumSlanted.woff2') format('woff2'),
+        url('LinBiolinumSlanted.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum Outline';
+    src: url('LinBiolinumU.woff2') format('woff2'),
+        url('LinBiolinumU.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum Capitals';
+    src: url('LinBiolinumCapitalsI.woff2') format('woff2'),
+        url('LinBiolinumCapitalsI.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum Outline';
+    src: url('LinBiolinumOutlineB.woff2') format('woff2'),
+        url('LinBiolinumOutlineB.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum Shadow';
+    src: url('LinBiolinumW.woff2') format('woff2'),
+        url('LinBiolinumW.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum Outline';
+    src: url('LinBiolinumUI.woff2') format('woff2'),
+        url('LinBiolinumUI.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum Keyboard';
+    src: url('LinBiolinumK.woff2') format('woff2'),
+        url('LinBiolinumK.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum Shadow';
+    src: url('LinBiolinumWI.woff2') format('woff2'),
+        url('LinBiolinumWI.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum';
+    src: url('LinBiolinum.woff2') format('woff2'),
+        url('LinBiolinum.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum Shadow';
+    src: url('LinBiolinumShadowB.woff2') format('woff2'),
+        url('LinBiolinumShadowB.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum';
+    src: url('LinBiolinumB.woff2') format('woff2'),
+        url('LinBiolinumB.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum';
+    src: url('LinBiolinumI.woff2') format('woff2'),
+        url('LinBiolinumI.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
