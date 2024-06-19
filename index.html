@@ -56,17 +56,23 @@
                     
                     <form>
                         
-                        <label for="book-name">Book Name: </label>
-                        <input type="text" id="book-name" maxlength="15">
+                        <label style="font-size: clamp(13px, 1.3rem, 28px); font-weight: 700; color: var(--font-primary-color);">Book Name: 
+                            <input type="text" id="book-name" maxlength="15" required>
+                        </label>
 
-                        <label for="author-name">Author: </label>
-                        <input type="text" id="author-name" maxlength="15">
+                        <label style="font-size: clamp(13px, 1.3rem, 28px); font-weight: 700; color: var(--font-primary-color)">Author:
+                            <input type="text" id="author-name" maxlength="15" required>
+                        </label>
 
-                        <label for="bool-read-book">Have you Read the Book? </label>
-                        <input type="checkbox" id="bool-read-book">
+                        <label style="display: flex; flex-direction: row;">
+                            <input type="checkbox" id="bool-read-book" value="1"> &nbsp;
+                            Have you Read the Book? 
+                        </label>
 
-                        <button type="reset" formmethod="dialog">Cancel</button>
-                        <button type="submit">Add</button>
+                        <div id="new-book-button-layout">
+                            <button formmethod="dialog" id="dialog-cancel-btn" class="button">Cancel </button>
+                            <button type="submit" id="form-submit" class="button">Add</button>
+                        </div>
 
                     </form>
 
@@ -79,34 +85,33 @@
 
         <div id="content">
 
-            <div id="content-book">
+            <div class="content-title">
+                Your Books
+            </div>
 
-                <div class="content-title">
-                    Your Books
-                </div>
-
-                <div id="book-card-layout">
+            <div id="book-card-layout">
+                
+                <div class="book-card">
                     
-                    <div class="book-card">
+                    <div class="book-card-title">Dummy Book</div>
+                    <div class="book-card-author"><b>Author:</b> Dummy Krat</div>
+                    <!-- <div class="book-card-author"><b>Pages:</b> 999</div> -->
+
+                    <div class="book-card-buttons-layer">
                         
-                        <div class="book-card-title">Meri Book Meri Marzi</div>
-                        <div class="book-card-author">Mere Baap ne</div>
-
-                        <div class="book-card-buttons-layer">
-                            
-                            <div class="read-or-no">Read</div>
-                            
-                            <div class="book-card-action-buttons">
-                                <button class="button" style="font-size: clamp(13px, 0.6rem, 40px);">Delete</button>
-                                <button class="button" style="font-size: clamp(13px, 0.6rem, 40px);">Read More</button>
-                            </div>
-                            
+                        <div class="bool-read-book haveRead">Read</div>
+                        
+                        <div class="book-card-action-buttons">
+                            <button class="button delete">Delete</button>
+                            <button class="button readMore">Read More</button>
                         </div>
-                    </div>                    
-
-                </div>
+                        
+                    </div>
+                    
+                </div>                    
 
             </div>
+
 
         </div>
  
